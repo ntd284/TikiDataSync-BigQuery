@@ -1,0 +1,1 @@
+0 20 * * * /Users/macos/Documents/Python/DEC/DE_PROJECT_5/run_scrip.sh 

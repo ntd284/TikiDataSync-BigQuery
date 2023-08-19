@@ -1,0 +1,12 @@
+SELECT      
+      t1.name AS name_product,
+      categories.name AS category,
+      attribute.value AS brand_origin,
+      current_seller.name AS Brand,
+      price AS Price,
+      all_time_quantity_sold AS Quantity,
+      rating_average AS Rating 
+      FROM `project5-394101.Tiki_db.Tiki_table` AS t1,
+
+UNNEST(t1.specifications) AS spec,
+UNNEST(spec.attributes) AS attribute
