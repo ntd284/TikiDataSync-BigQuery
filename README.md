@@ -55,11 +55,11 @@ Parameters: None
 
 * Selected with `name_product`, `category`, `brand_origin`, `brand`, `price`, `rating` and `Quantity_sold`
 
-![Alt text](image.png)
+![Alt text](Data/image.png)
 
 
 ### 4. Visualization based on DA:
-![Alt text](image-1.png)
+![Alt text](Data/image-1.png)
 
 * Requirements:
 1. Sold quantity of products of large brands.
