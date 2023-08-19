@@ -5,7 +5,7 @@ import subprocess
 client = MongoClient('mongodb://localhost:27017/')
 DB_Name="Tiki2"
 Col_Name="Tiki_info"
-File = "/Users/macos/Documents/Python/DEC/TikiDataSync-BigQuery/Data/Tiki_.json"
+File = "./TikiDataSync-BigQuery/Data/Tiki_.json"
 def Fetch_data_From_MongoDB():
     f = open(File, "w")
 
